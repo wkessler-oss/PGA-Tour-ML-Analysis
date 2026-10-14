@@ -1,0 +1,431 @@
+﻿player_id,player,season,start_date,tournament_name,course_name,finish_pos,r1,r2,r3,r4,total,to_par,sg_total,sg_ott,sg_app,sg_arg,sg_putt,sg_rounds
+24502,Adam Scott,2025,2025-01-02,The Sentry,Plantation Course at Kapalua,T15,68,69,64,70,271,-21,0.994,-0.315,0.948,0.357,0.005,4
+24502,Adam Scott,2025,2025-01-30,AT&T Pebble Beach Pro-Am,Pebble Beach Golf Links,T22,74,71,69,64,278,-10,0.746,0.556,0.38,0.046,-0.236,4
+24502,Adam Scott,2025,2025-02-13,The Genesis Invitational,Torrey Pines Golf Course (South Course),T37,74,70,75,70,289,+1,-0.172,0.25,0.831,-0.22,-1.034,4
+24502,Adam Scott,2025,2025-03-06,Arnold Palmer Invitational presented by Mastercard,Arnold Palmer's Bay Hill Club & Lodge,T36,75,72,70,74,291,+3,-0.32,0.299,-0.387,-0.705,0.473,4
+24502,Adam Scott,2025,2025-03-13,THE PLAYERS Championship,TPC Sawgrass - THE PLAYERS Stadium Course,CUT,74,72,-,-,146,+2,-1.131,0.157,-2.101,1.357,-0.544,2
+24502,Adam Scott,2025,2025-03-20,Valspar Championship,Innisbrook Resort and Golf Club - Copperhead Course,T57,74,70,73,70,287,+3,-0.095,-0.53,0.072,0.294,0.069,4
+24502,Adam Scott,2025,2025-04-10,Masters Tournament,Augusta National Golf Club,CUT,77,72,-,-,149,+5,,,,,,
+24502,Adam Scott,2025,2025-04-17,RBC Heritage,Harbour Town Golf Links,T49,68,70,69,73,280,-4,-0.632,-0.29,-0.808,-0.305,0.771,4
+24502,Adam Scott,2025,2025-05-08,Truist Championship,The Philadelphia Cricket Club (Wissahickon Course),T34,68,70,70,68,276,-4,0.013,0.626,-1.046,0.873,-0.442,4
+24502,Adam Scott,2025,2025-05-15,PGA Championship,Quail Hollow Club,T19,69,71,69,73,282,-2,1.959,0.858,-0.207,0.215,1.093,4
+24502,Adam Scott,2025,2025-05-29,the Memorial Tournament presented by Workday,Muirfield Village Golf Club,T31,79,69,73,72,293,+5,0.12,0.628,-0.628,0.756,-0.635,4
+24502,Adam Scott,2025,2025-06-12,U.S. Open,Oakmont Country Club,T12,70,70,67,79,286,+6,,,,,,
+24502,Adam Scott,2025,2025-06-19,Travelers Championship,TPC River Highlands,T30,72,72,62,70,276,-4,0.241,0.417,1.103,-0.263,-1.017,4
+24502,Adam Scott,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,T17,69,68,70,67,274,-6,1.591,0.258,0.645,0.019,0.668,4
+24502,Adam Scott,2025,2025-07-17,The Open Championship,Royal Portrush Golf Club,CUT,72,79,-,-,151,+9,,,,,,
+24502,Adam Scott,2025,2025-07-24,3M Open,TPC Twin Cities,T53,69,67,66,72,274,-10,0.252,0.187,1.25,-0.449,-0.738,4
+24502,Adam Scott,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T55,65,71,69,72,277,-3,0.046,0.839,0.354,-0.628,-0.52,4
+24502,Adam Scott,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T27,68,72,70,67,277,-7,0.795,0.837,-0.928,-0.462,1.348,4
+46340,Alex Smalley,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,T5,70,67,67,67,271,-13,,,,,,
+46340,Alex Smalley,2025,2025-05-15,PGA Championship,Quail Hollow Club,T28,67,71,73,72,283,-1,1.71,0.625,0.692,0.499,-0.106,4
+46340,Alex Smalley,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,CUT,72,70,-,-,142,+2,-0.922,0.658,-0.932,-0.283,-0.364,2
+46340,Alex Smalley,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,T13,65,72,63,67,267,-13,1.747,0.259,1.242,0.409,-0.163,4
+46340,Alex Smalley,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,72,73,-,-,145,+1,-3.138,0.513,-1.792,-1.441,-0.418,2
+46340,Alex Smalley,2025,2025-07-03,John Deere Classic,TPC Deere Run,CUT,73,66,-,-,139,-3,0.063,0.44,-0.95,-0.386,0.958,2
+46340,Alex Smalley,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,T34,70,69,69,68,276,-4,1.091,0.114,-0.276,-0.355,1.608,4
+46340,Alex Smalley,2025,2025-07-24,3M Open,TPC Twin Cities,T44,71,66,66,70,273,-11,0.502,0.282,0.249,-0.223,0.193,4
+46340,Alex Smalley,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,CUT,67,72,-,-,139,-1,-0.561,1.276,0.605,-1.452,-1.792,2
+46340,Alex Smalley,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),CUT,75,73,-,-,148,+4,-2.09,1.145,-1.408,-1.132,-0.694,2
+46340,Alex Smalley,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,CUT,74,75,-,-,149,+5,-4.194,0.216,-0.295,-1.129,-2.985,2
+46340,Alex Smalley,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T4,69,65,72,64,270,-14,2.545,0.41,0.549,0.931,0.654,4
+46340,Alex Smalley,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,CUT,74,71,-,-,145,+3,-2.104,-0.001,-0.934,-0.515,-0.654,2
+46340,Alex Smalley,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,T3,67,74,65,68,274,-10,,,,,,
+46340,Alex Smalley,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T62,66,68,68,70,272,-10,-0.164,-0.442,0.68,0.778,-1.181,3
+34256,Andrew Putnam,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T44,69,67,71,72,279,-1,0.578,0.03,0.157,0.505,-0.115,4
+34256,Andrew Putnam,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,T6,68,62,68,67,265,-15,2.248,-0.774,0.547,1.169,1.304,4
+34256,Andrew Putnam,2025,2025-06-26,Rocket Classic,Detroit Golf Club,T8,64,66,69,70,269,-19,2.431,-1.215,0.112,1.17,2.365,4
+34256,Andrew Putnam,2025,2025-07-03,John Deere Classic,TPC Deere Run,W/D,71,-,-,-,71,E,-1.423,-0.9,-0.464,1.699,-1.759,1
+34256,Andrew Putnam,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,CUT,71,69,-,-,140,E,-0.122,-1.099,-0.405,0.842,0.539,2
+34256,Andrew Putnam,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),T11,+12,+6,+3,+12,+33,,,,,,,
+34256,Andrew Putnam,2025,2025-07-24,3M Open,TPC Twin Cities,CUT,70,68,-,-,138,-4,0.01,-0.843,0.011,0.082,0.758,2
+34256,Andrew Putnam,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,CUT,66,72,-,-,138,-2,-0.061,-0.685,0.402,0.232,-0.011,2
+34256,Andrew Putnam,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),CUT,72,72,-,-,144,E,-0.09,-0.507,1.131,-0.172,-0.542,2
+34256,Andrew Putnam,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,CUT,74,69,-,-,143,-1,-1.194,-0.956,0.14,-0.768,0.391,2
+34256,Andrew Putnam,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T65,73,70,71,74,288,+4,-1.955,0.898,-2.605,0.235,-0.484,4
+34256,Andrew Putnam,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,CUT,71,74,-,-,145,+3,-2.104,-1.647,0.531,0.541,-1.529,2
+34256,Andrew Putnam,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T40,64,70,69,70,273,-15,,,,,,
+34256,Andrew Putnam,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,T67,73,69,70,79,291,+7,,,,,,
+34256,Andrew Putnam,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T25,61,69,69,68,267,-15,1.836,-0.175,-0.88,0.902,1.988,3
+34256,Andrew Putnam,2025,2025-12-11,PGA TOUR Q-School presented by Korn Ferry,Dye's Valley Course,T79,71,73,66,69,279,-1,,,,,,
+35461,Beau Hossler,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,T65,69,68,69,76,282,-2,-1.474,-0.166,-1.319,0.982,-0.971,4
+35461,Beau Hossler,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,CUT,73,73,-,-,146,+4,,,,,,
+35461,Beau Hossler,2025,2025-05-15,PGA Championship,Quail Hollow Club,T19,71,70,73,68,282,-2,1.96,-0.474,0.183,1.432,0.819,4
+35461,Beau Hossler,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T59,66,71,73,72,282,+2,-0.173,0.245,-0.397,0.434,-0.454,4
+35461,Beau Hossler,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,T52,71,63,72,68,274,-6,-0.003,-0.489,0.207,-0.03,0.309,4
+35461,Beau Hossler,2025,2025-06-26,Rocket Classic,Detroit Golf Club,T60,70,68,70,71,279,-9,-0.069,-0.119,-0.497,0.542,0.005,4
+35461,Beau Hossler,2025,2025-07-03,John Deere Classic,TPC Deere Run,T11,67,69,70,63,269,-15,2.094,0.097,0.465,0.234,1.299,4
+35461,Beau Hossler,2025,2025-07-10,ISCO Championship,Hurstbourne Country Club,T14,67,68,71,71,277,-3,1.808,0.574,0.455,0.043,0.736,4
+35461,Beau Hossler,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),T4,+6,+8,+6,+17,+37,,,,,,,
+35461,Beau Hossler,2025,2025-07-24,3M Open,TPC Twin Cities,CUT,74,71,-,-,145,+3,-3.49,-0.168,-2.341,0.033,-1.014,2
+35461,Beau Hossler,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T15,66,68,70,65,269,-11,2.046,-0.717,0.093,0.532,2.138,4
+35461,Beau Hossler,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T47,73,70,71,70,284,-4,0.295,-0.04,-0.606,0.555,0.376,4
+35461,Beau Hossler,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,CUT,70,74,-,-,144,E,-1.694,-0.487,-0.82,0.616,-1.002,2
+35461,Beau Hossler,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T36,69,68,69,73,279,-5,0.295,-0.621,0.522,-0.155,0.548,4
+35461,Beau Hossler,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,CUT,75,70,-,-,145,+3,-2.104,1.085,-2.76,0.539,-0.968,2
+35461,Beau Hossler,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T17,67,66,67,69,269,-19,,,,,,
+35461,Beau Hossler,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,CUT,77,69,-,-,146,+4,,,,,,
+35461,Beau Hossler,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T64,68,67,71,67,273,-9,-0.831,0.1,-1.074,-0.168,0.311,3
+45522,Christiaan Bezuidenhout,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,CUT,66,69,-,-,135,-9,,,,,,
+45522,Christiaan Bezuidenhout,2025,2025-05-08,Truist Championship,The Philadelphia Cricket Club (Wissahickon Course),T42,67,71,71,68,277,-3,-0.237,0.093,0.237,0.422,-0.99,4
+45522,Christiaan Bezuidenhout,2025,2025-05-15,PGA Championship,Quail Hollow Club,T50,70,68,77,73,288,+4,0.459,-0.343,1.243,-0.092,-0.348,4
+45522,Christiaan Bezuidenhout,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T16,69,69,68,69,275,-5,1.577,0.145,1.081,0.168,0.185,4
+45522,Christiaan Bezuidenhout,2025,2025-05-29,the Memorial Tournament presented by Workday,Muirfield Village Golf Club,CUT,74,78,-,-,152,+8,-2.549,0.091,-1.099,-0.092,-1.45,2
+45522,Christiaan Bezuidenhout,2025,2025-06-12,U.S. Open,Oakmont Country Club,T12,72,71,71,72,286,+6,,,,,,
+45522,Christiaan Bezuidenhout,2025,2025-06-19,Travelers Championship,TPC River Highlands,T45,71,74,69,66,280,E,-0.509,-0.785,-1.635,-0.106,1.767,4
+45522,Christiaan Bezuidenhout,2025,2025-07-03,John Deere Classic,TPC Deere Run,CUT,72,69,-,-,141,-1,-0.937,-1.371,1.03,0.463,-1.059,2
+45522,Christiaan Bezuidenhout,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,T13,70,68,69,66,273,-7,1.841,0.161,1.018,0.044,0.618,4
+45522,Christiaan Bezuidenhout,2025,2025-07-17,The Open Championship,Royal Portrush Golf Club,T34,67,73,69,72,281,-3,,,,,,
+45522,Christiaan Bezuidenhout,2025,2025-07-24,3M Open,TPC Twin Cities,T20,71,66,67,65,269,-15,1.502,0.096,0.374,-0.041,1.072,4
+45522,Christiaan Bezuidenhout,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T62,65,69,72,73,279,-1,-0.454,-0.29,-0.186,0.437,-0.415,4
+45522,Christiaan Bezuidenhout,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T6,68,68,68,67,271,-17,2.25,-0.009,0.075,0.891,1.294,4
+45522,Christiaan Bezuidenhout,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T10,69,68,70,66,273,-11,1.795,0.102,1.389,0.844,-0.54,4
+45522,Christiaan Bezuidenhout,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,T42,70,68,67,71,276,-8,0.545,-0.637,1.118,0.54,-0.476,4
+54607,Danny Walker,2025,2025-04-17,Corales Puntacana Championship,Puntacana Resort & Club (Corales Golf Course),T31,72,66,70,74,282,-6,,,,,,
+54607,Danny Walker,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,T12,65,69,63,69,266,-22,,,,,,
+54607,Danny Walker,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,T25,68,68,66,68,270,-14,1.526,-0.115,0.194,1.018,0.429,4
+54607,Danny Walker,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,T34,66,67,70,75,278,-6,,,,,,
+54607,Danny Walker,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,CUT,73,70,-,-,143,+3,-1.422,-0.628,-0.771,-0.568,0.546,2
+54607,Danny Walker,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,70,70,-,-,140,E,-0.858,0.37,-1.083,-0.693,0.548,2
+54607,Danny Walker,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,72,71,-,-,143,-1,-2.137,-0.848,-0.415,-0.96,0.085,2
+54607,Danny Walker,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,CUT,72,71,-,-,143,+3,-1.623,0.091,0.256,-0.171,-1.798,2
+54607,Danny Walker,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),CUT,+13,-3,-,-,+10,,,,,,,
+54607,Danny Walker,2025,2025-07-24,3M Open,TPC Twin Cities,CUT,68,73,-,-,141,-1,-1.49,0.569,-2.276,-0.644,0.861,2
+54607,Danny Walker,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,CUT,72,69,-,-,141,+1,-1.561,-0.461,-0.212,0.591,-1.48,2
+54607,Danny Walker,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),CUT,75,75,-,-,150,+6,-3.09,-0.591,-1.194,-1.062,-0.244,2
+54607,Danny Walker,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T3,65,68,67,69,269,-19,2.75,0.296,0.14,0.057,2.257,4
+54607,Danny Walker,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,75,80,69,75,68,292,+8,-2.955,-0.113,-0.477,-1.746,-0.619,4
+54607,Danny Walker,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,T61,74,66,70,73,283,-1,-1.205,-0.645,-1.364,-0.357,1.161,4
+54607,Danny Walker,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,CUT,76,72,-,-,148,+6,,,,,,
+54607,Danny Walker,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),CUT,68,68,-,-,136,-6,-0.372,-0.441,-1.837,-0.826,2.732,1
+36326,David Lipsky,2025,2025-04-17,Corales Puntacana Championship,Puntacana Resort & Club (Corales Golf Course),T31,70,70,72,70,282,-6,,,,,,
+36326,David Lipsky,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,T4,63,69,63,68,263,-25,,,,,,
+36326,David Lipsky,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,CUT,71,70,-,-,141,-1,-1.206,-0.387,0.047,0.262,-1.128,2
+36326,David Lipsky,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,CUT,72,70,-,-,142,E,,,,,,
+36326,David Lipsky,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,CUT,72,72,-,-,144,+4,-1.922,-1.168,-0.203,0.61,-1.16,2
+36326,David Lipsky,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,71,73,-,-,144,+4,-2.858,-0.52,0.686,-0.275,-2.748,2
+36326,David Lipsky,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,69,73,-,-,142,-2,-1.637,-0.499,0.397,-0.958,-0.578,2
+36326,David Lipsky,2025,2025-07-03,John Deere Classic,TPC Deere Run,T3,64,67,68,68,267,-17,2.594,0.118,0.716,0.02,1.741,4
+36326,David Lipsky,2025,2025-07-10,ISCO Championship,Hurstbourne Country Club,T28,73,67,70,69,279,-1,1.308,0.454,0.68,0.39,-0.215,4
+36326,David Lipsky,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),T32,+14,+7,+6,+0,+27,,,,,,,
+36326,David Lipsky,2025,2025-07-24,3M Open,TPC Twin Cities,T3,68,68,64,64,264,-20,2.752,0.375,1.043,0.545,0.787,4
+36326,David Lipsky,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T44,70,67,66,73,276,-4,0.296,0.05,0.757,0.379,-0.889,4
+36326,David Lipsky,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),CUT,76,72,-,-,148,+4,-2.09,0.198,-0.942,-1.69,0.343,2
+36326,David Lipsky,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T48,72,65,71,72,280,-8,0,-0.534,-0.278,-0.052,0.864,4
+36326,David Lipsky,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T52,73,72,72,66,283,-1,-0.705,0.608,-0.453,0.557,-1.418,4
+36326,David Lipsky,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,T33,65,71,70,68,274,-10,1.045,-0.037,0.759,-0.056,0.379,4
+36326,David Lipsky,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T31,69,66,72,65,272,-16,,,,,,
+36326,David Lipsky,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,CUT,73,70,-,-,143,+1,,,,,,
+36326,David Lipsky,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),CUT,72,69,-,-,141,-1,-1.372,-1.991,-1.626,1.77,0.475,1
+47591,Eric Cole,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T28,70,69,66,72,277,-3,1.077,-0.377,0.937,-0.097,0.614,4
+47591,Eric Cole,2025,2025-05-29,the Memorial Tournament presented by Workday,Muirfield Village Golf Club,T44,72,72,76,76,296,+8,-0.63,-0.861,-0.325,0.888,-0.332,4
+47591,Eric Cole,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,69,75,-,-,144,+4,-2.858,-0.134,-0.996,-0.201,-1.528,2
+47591,Eric Cole,2025,2025-06-12,U.S. Open,Oakmont Country Club,CUT,76,76,-,-,152,+12,,,,,,
+47591,Eric Cole,2025,2025-06-19,Travelers Championship,TPC River Highlands,W/D,68,67,69,-,204,-6,1.51,-1.317,-0.949,1.435,2.009,3
+47591,Eric Cole,2025,2025-07-03,John Deere Classic,TPC Deere Run,T60,67,70,68,75,280,-4,-0.656,-0.512,0.023,-0.033,-0.134,4
+47591,Eric Cole,2025,2025-07-24,3M Open,TPC Twin Cities,CUT,75,65,-,-,140,-2,-0.99,0.031,-0.311,-0.654,-0.058,2
+47591,Eric Cole,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T74,70,67,78,70,285,+5,-1.954,-1.322,1.247,-0.127,-1.753,4
+47591,Eric Cole,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T43,73,70,73,67,283,-5,0.545,-1.134,-0.107,0.318,1.467,4
+47591,Eric Cole,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T9,65,67,71,69,272,-16,2,-0.312,1.132,-0.087,1.267,4
+47591,Eric Cole,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T48,73,73,70,66,282,-2,-0.455,-1.694,1.522,-0.472,0.189,4
+47591,Eric Cole,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,10,69,63,68,65,265,-23,,,,,,
+47591,Eric Cole,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,CUT,72,73,-,-,145,+3,,,,,,
+47591,Eric Cole,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T21,68,62,67,69,266,-16,1.785,-0.463,1.336,0.256,0.656,3
+54421,Garrick Higgo,2025,2025-01-22,Farmers Insurance Open,Torrey Pines Golf Course (South Course),T42,70,75,72,74,291,+3,0.398,0.733,-1.182,0.951,-0.104,3
+54421,Garrick Higgo,2025,2025-03-06,Puerto Rico Open,Grand Reserve Golf Club,T12,66,69,67,70,272,-16,,,,,,
+54421,Garrick Higgo,2025,2025-04-17,Corales Puntacana Championship,Puntacana Resort & Club (Corales Golf Course),1,64,68,70,72,274,-14,,,,,,
+54421,Garrick Higgo,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,CUT,64,74,-,-,138,-6,,,,,,
+54421,Garrick Higgo,2025,2025-05-08,Truist Championship,The Philadelphia Cricket Club (Wissahickon Course),68,68,70,77,71,286,+6,-2.488,-0.605,-0.608,-0.445,-0.829,4
+54421,Garrick Higgo,2025,2025-05-15,PGA Championship,Quail Hollow Club,T55,69,69,71,80,289,+5,0.209,-0.138,-0.429,-0.727,1.503,4
+54421,Garrick Higgo,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,69,70,-,-,139,-5,-0.138,0.155,-0.395,0.462,-0.36,2
+54421,Garrick Higgo,2025,2025-07-03,John Deere Classic,TPC Deere Run,T27,67,70,69,66,272,-12,1.344,-0.297,-0.675,0.077,2.239,4
+54421,Garrick Higgo,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),W/D,-2,-,-,-,-2,,,,,,,
+54421,Garrick Higgo,2025,2025-07-24,3M Open,TPC Twin Cities,T39,68,67,70,67,272,-12,0.752,-0.109,0,0.362,0.498,4
+54421,Garrick Higgo,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,CUT,67,72,-,-,139,-1,-0.561,-0.462,0.399,0.615,-1.115,2
+54421,Garrick Higgo,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T7,69,68,66,71,274,-14,2.796,1.215,0.293,-0.219,1.507,4
+54421,Garrick Higgo,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,2,65,66,67,68,266,-22,3.5,0.523,1.429,0.525,1.023,4
+54421,Garrick Higgo,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T4,71,65,68,66,270,-14,2.545,0.332,1.7,0.064,0.532,4
+54421,Garrick Higgo,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T4,68,65,61,68,262,-26,,,,,,
+34076,Joel Dahmen,2025,2025-04-17,Corales Puntacana Championship,Puntacana Resort & Club (Corales Golf Course),T2,62,66,71,76,275,-13,,,,,,
+34076,Joel Dahmen,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,CUT,65,71,-,-,136,-8,,,,,,
+34076,Joel Dahmen,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,CUT,70,68,-,-,138,-4,0.294,-0.517,2.509,-0.747,-0.951,2
+34076,Joel Dahmen,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,CUT,71,74,-,-,145,+3,,,,,,
+34076,Joel Dahmen,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,CUT,74,71,-,-,145,+5,-2.422,-1.57,1.364,-0.133,-2.084,2
+34076,Joel Dahmen,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,70,69,-,-,139,-1,-0.358,-0.357,0.218,0.329,-0.547,2
+34076,Joel Dahmen,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,74,71,-,-,145,+1,-3.138,0.06,-1.444,-0.331,-1.422,2
+34076,Joel Dahmen,2025,2025-07-03,John Deere Classic,TPC Deere Run,T57,66,69,70,74,279,-5,-0.406,-0.512,0.954,0.94,-1.787,4
+34076,Joel Dahmen,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,CUT,72,71,-,-,143,+3,-1.623,-0.049,-2.968,-0.223,1.618,2
+34076,Joel Dahmen,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),T17,+13,+9,+2,+7,+31,,,,,,,
+34076,Joel Dahmen,2025,2025-07-24,3M Open,TPC Twin Cities,T39,67,65,71,69,272,-12,0.752,0.495,-0.594,0.188,0.663,4
+34076,Joel Dahmen,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T15,61,67,73,68,269,-11,2.046,0.947,0.344,-0.378,1.134,4
+34076,Joel Dahmen,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),CUT,69,78,-,-,147,+3,-1.59,-0.556,0.368,-0.236,-1.166,2
+34076,Joel Dahmen,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,CUT,71,71,-,-,142,-2,-0.694,0.358,-0.514,-0.167,-0.37,2
+34076,Joel Dahmen,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T69,71,72,73,74,290,+6,-2.455,0.586,-0.821,-0.49,-1.73,4
+34076,Joel Dahmen,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,CUT,73,69,-,-,142,E,-0.605,1.066,-1.212,-0.51,0.053,2
+34076,Joel Dahmen,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T40,68,67,72,66,273,-15,,,,,,
+34076,Joel Dahmen,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),CUT,69,68,-,-,137,-5,-0.372,-0.013,0.02,-0.533,0.154,1
+54304,Karl Vilips,2025,2025-02-27,Cognizant Classic in The Palm Beaches,PGA National - Champion Course,T39,68,67,68,72,275,-9,0.629,-0.309,0.945,0.705,-0.712,4
+54304,Karl Vilips,2025,2025-03-06,Puerto Rico Open,Grand Reserve Golf Club,1,65,67,66,64,262,-26,,,,,,
+54304,Karl Vilips,2025,2025-03-13,THE PLAYERS Championship,TPC Sawgrass - THE PLAYERS Stadium Course,CUT,72,78,-,-,150,+6,-3.131,-1.081,0.625,-1.678,-0.997,2
+54304,Karl Vilips,2025,2025-03-20,Valspar Championship,Innisbrook Resort and Golf Club - Copperhead Course,CUT,74,75,-,-,149,+7,-2.191,-0.334,-0.877,-0.051,-0.928,2
+54304,Karl Vilips,2025,2025-03-27,Texas Children's Houston Open,Memorial Park Golf Course,CUT,68,73,-,-,141,+1,-1.347,0.257,-0.304,-0.634,-0.665,2
+54304,Karl Vilips,2025,2025-04-17,RBC Heritage,Harbour Town Golf Links,T54,71,65,71,74,281,-3,-0.882,-0.472,0.676,-0.858,-0.228,4
+54304,Karl Vilips,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,T4,64,70,61,68,263,-25,,,,,,
+54304,Karl Vilips,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,T49,65,72,69,70,276,-8,0.026,-0.106,-0.017,0.172,-0.023,4
+54304,Karl Vilips,2025,2025-05-15,PGA Championship,Quail Hollow Club,CUT,78,75,-,-,153,+11,-3.912,-0.193,-0.574,-0.213,-2.933,2
+54304,Karl Vilips,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T11,70,66,68,70,274,-6,1.828,0.35,0.645,0.11,0.722,4
+54304,Karl Vilips,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,73,69,-,-,142,+2,-1.858,0.082,0.645,-0.303,-2.28,2
+54304,Karl Vilips,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,71,74,-,-,145,+1,-3.138,0.393,-1.787,-0.003,-1.742,2
+54304,Karl Vilips,2025,2025-07-03,John Deere Classic,TPC Deere Run,CUT,77,65,-,-,142,E,-1.437,-0.233,0.014,-1.347,0.129,2
+54304,Karl Vilips,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,CUT,71,74,-,-,145,+5,-2.622,-0.262,-0.978,-0.492,-0.891,2
+54304,Karl Vilips,2025,2025-07-24,3M Open,TPC Twin Cities,CUT,70,71,-,-,141,-1,-1.49,-0.357,-0.425,0.015,-0.724,2
+54304,Karl Vilips,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T19,67,67,69,67,270,-10,1.796,-0.819,0.42,1.004,1.192,4
+54304,Karl Vilips,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T47,73,70,71,70,284,-4,0.295,0.442,0.105,-0.229,-0.023,4
+54304,Karl Vilips,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T40,73,70,72,65,280,-4,0.045,-0.691,-0.237,0.536,0.435,4
+54304,Karl Vilips,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,66,68,70,71,77,286,+2,-1.955,-0.933,-0.833,0.43,-0.619,4
+54304,Karl Vilips,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T51,66,66,71,68,271,-11,-0.497,-0.403,0.199,0.272,-0.565,3
+39335,Kevin Roy,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,T54,67,72,72,71,282,-2,,,,,,
+39335,Kevin Roy,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T46,69,70,69,72,280,E,0.327,-0.761,0.793,-0.071,0.367,4
+39335,Kevin Roy,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,T18,68,68,64,68,268,-12,1.498,0.778,1.038,-0.384,0.065,4
+39335,Kevin Roy,2025,2025-06-26,Rocket Classic,Detroit Golf Club,T8,62,71,69,67,269,-19,2.431,0.422,1.895,0.152,-0.038,4
+39335,Kevin Roy,2025,2025-07-03,John Deere Classic,TPC Deere Run,T3,67,65,70,65,267,-17,2.594,0.585,0.807,0.844,0.357,4
+39335,Kevin Roy,2025,2025-07-10,ISCO Championship,Hurstbourne Country Club,CUT,78,69,-,-,147,+7,-2.288,0.583,-1.995,-0.175,-0.7,2
+39335,Kevin Roy,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),T35,+8,+11,+8,-1,+26,,,,,,,
+39335,Kevin Roy,2025,2025-07-24,3M Open,TPC Twin Cities,T28,68,68,71,64,271,-13,1.004,0.091,-0.843,-0.064,1.82,4
+39335,Kevin Roy,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,CUT,66,74,-,-,140,E,-1.062,-0.249,-1.486,-0.064,0.739,2
+39335,Kevin Roy,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),CUT,72,75,-,-,147,+3,-1.59,0.365,-0.747,0.033,-1.241,2
+39335,Kevin Roy,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T18,69,71,67,68,275,-13,1.25,0.522,0.142,0.283,0.303,4
+39335,Kevin Roy,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T40,68,69,73,70,280,-4,0.045,1.53,-1.238,-0.144,-0.103,4
+39335,Kevin Roy,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,60,73,67,71,70,281,-3,-0.705,0.359,-0.379,-0.65,-0.035,4
+39335,Kevin Roy,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,CUT,70,72,-,-,142,-2,,,,,,
+39335,Kevin Roy,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,T34,71,66,71,75,283,-1,,,,,,
+39335,Kevin Roy,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),CUT,72,64,-,-,136,-6,3.628,-0.135,0.4,-0.292,3.655,1
+59143,Mac Meissner,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,CUT,65,70,-,-,135,-9,,,,,,
+59143,Mac Meissner,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,T65,68,69,73,72,282,-2,-1.474,-0.877,-1.364,0.443,0.324,4
+59143,Mac Meissner,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,CUT,70,74,-,-,144,+2,,,,,,
+59143,Mac Meissner,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T28,71,69,68,69,277,-3,1.077,-0.059,1.508,0.02,-0.391,4
+59143,Mac Meissner,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,71,71,-,-,142,+2,-1.858,0.323,0.142,-0.612,-1.709,2
+59143,Mac Meissner,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,71,69,-,-,140,-4,-0.637,-0.795,0.285,0.201,-0.329,2
+59143,Mac Meissner,2025,2025-07-03,John Deere Classic,TPC Deere Run,CUT,70,70,-,-,140,-2,-0.437,0.068,-0.122,-0.048,-0.334,2
+59143,Mac Meissner,2025,2025-07-10,ISCO Championship,Hurstbourne Country Club,CUT,69,73,-,-,142,+2,0.212,0.797,-1.137,0.366,0.186,2
+59143,Mac Meissner,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),CUT,+4,+2,-,-,+6,,,,,,,
+59143,Mac Meissner,2025,2025-07-24,3M Open,TPC Twin Cities,T14,66,67,67,68,268,-16,1.752,0.142,0.933,0.547,0.129,4
+59143,Mac Meissner,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,2,65,63,70,66,264,-16,3.296,0.588,1.067,0.177,1.464,4
+59143,Mac Meissner,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T47,71,72,73,68,284,-4,0.296,0.046,0.253,1.108,-1.112,4
+59143,Mac Meissner,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T14,67,69,69,69,274,-14,1.5,0.142,0.816,0.331,0.211,4
+59143,Mac Meissner,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T27,73,68,67,69,277,-7,0.795,0.751,0.032,0.384,-0.372,4
+59143,Mac Meissner,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,T27,67,69,68,69,273,-11,1.295,0.48,0.856,0.136,-0.177,4
+59143,Mac Meissner,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T18,67,66,66,66,265,-17,1.785,0.848,0.175,-0.027,0.789,3
+36801,Mark Hubbard,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,T7,68,71,67,66,272,-12,,,,,,
+36801,Mark Hubbard,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T28,69,67,71,70,277,-3,1.078,-0.086,0.62,0.233,0.311,4
+36801,Mark Hubbard,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,T47,69,68,69,67,273,-7,0.247,0.46,0.014,-0.269,0.043,4
+36801,Mark Hubbard,2025,2025-06-12,U.S. Open,Oakmont Country Club,CUT,76,73,-,-,149,+9,,,,,,
+36801,Mark Hubbard,2025,2025-06-26,Rocket Classic,Detroit Golf Club,T13,63,69,67,71,270,-18,2.181,0.318,1.032,0.275,0.556,4
+36801,Mark Hubbard,2025,2025-07-03,John Deere Classic,TPC Deere Run,T33,70,67,69,68,274,-10,0.844,0.101,-0.051,0.25,0.545,4
+36801,Mark Hubbard,2025,2025-07-10,ISCO Championship,Hurstbourne Country Club,T67,71,70,72,76,289,+9,-1.192,-0.842,-0.396,0.047,0.249,4
+36801,Mark Hubbard,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),T35,+3,+8,+10,+5,+26,,,,,,,
+36801,Mark Hubbard,2025,2025-07-24,3M Open,TPC Twin Cities,T61,66,68,74,68,276,-8,-0.248,-0.502,0.595,-0.394,0.051,4
+36801,Mark Hubbard,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T3,63,66,73,63,265,-15,3.046,0.742,1.081,0.237,0.987,4
+36801,Mark Hubbard,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T38,71,68,70,73,282,-6,0.795,-0.616,0.225,0.488,0.699,4
+36801,Mark Hubbard,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T38,69,70,70,69,278,-10,0.5,-0.136,-0.241,0.16,0.718,4
+36801,Mark Hubbard,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T48,73,68,74,67,282,-2,-0.455,-1.167,1.013,-0.197,-0.104,4
+36801,Mark Hubbard,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,CUT,74,69,-,-,143,+1,-1.105,-0.216,0.237,-0.327,-0.799,2
+36801,Mark Hubbard,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,CUT,75,65,-,-,140,-4,,,,,,
+36801,Mark Hubbard,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,CUT,73,72,-,-,145,+3,,,,,,
+36801,Mark Hubbard,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T34,70,63,66,69,268,-14,-0.497,0.558,-0.47,-0.212,-0.374,3
+59141,Matt McCarty,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,CUT,70,71,-,-,141,+1,-0.422,-0.703,-0.394,-0.002,0.677,2
+59141,Matt McCarty,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,T4,66,67,64,67,264,-16,2.498,0.39,0.174,0.144,1.789,4
+59141,Matt McCarty,2025,2025-06-12,U.S. Open,Oakmont Country Club,CUT,82,78,-,-,160,+20,,,,,,
+59141,Matt McCarty,2025,2025-06-26,Rocket Classic,Detroit Golf Club,T19,67,67,69,68,271,-17,1.931,-0.359,0.385,-0.11,2.016,4
+59141,Matt McCarty,2025,2025-07-03,John Deere Classic,TPC Deere Run,CUT,71,68,-,-,139,-3,0.063,0.445,1.071,-0.213,-1.241,2
+59141,Matt McCarty,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,T22,69,65,71,70,275,-5,1.341,-0.095,0.71,0.347,0.379,4
+59141,Matt McCarty,2025,2025-07-17,The Open Championship,Royal Portrush Golf Club,CUT,71,74,-,-,145,+3,,,,,,
+59141,Matt McCarty,2025,2025-07-24,3M Open,TPC Twin Cities,T68,67,70,71,69,277,-7,-0.498,0.179,-0.403,0.121,-0.396,4
+59141,Matt McCarty,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T8,66,65,72,64,267,-13,2.546,0.459,0.502,0.497,1.087,4
+59141,Matt McCarty,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T43,64,73,70,76,283,-5,0.545,-0.019,0.408,-0.073,0.229,4
+59141,Matt McCarty,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T14,75,65,74,60,274,-10,1.545,-0.636,0.241,0.801,1.138,4
+59141,Matt McCarty,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,T3,69,65,64,70,268,-16,2.545,0.659,-0.006,-0.004,1.895,4
+48887,Matt Wallace,2025,2025-03-27,Texas Children's Houston Open,Memorial Park Golf Course,CUT,70,68,-,-,138,-2,0.153,0.152,-0.166,0.977,-0.808,2
+48887,Matt Wallace,2025,2025-04-03,Valero Texas Open,TPC San Antonio - The Oaks Course,T26,70,67,77,73,287,-1,1.231,0.117,-0.05,0.93,0.233,4
+48887,Matt Wallace,2025,2025-04-17,Corales Puntacana Championship,Puntacana Resort & Club (Corales Golf Course),T12,64,70,71,73,278,-10,,,,,,
+48887,Matt Wallace,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,CUT,62,74,-,-,136,-8,,,,,,
+48887,Matt Wallace,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,W/D,72,-,-,-,72,+1,-3.295,-0.311,-1.337,0.346,-1.993,1
+48887,Matt Wallace,2025,2025-05-15,PGA Championship,Quail Hollow Club,T17,71,70,68,72,281,-3,2.21,0.383,-0.436,2.257,0.007,4
+48887,Matt Wallace,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T22,66,70,70,70,276,-4,1.328,0.394,-0.668,0.294,1.309,4
+48887,Matt Wallace,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,69,71,-,-,140,E,-0.858,-0.148,-0.632,-0.092,0.015,2
+48887,Matt Wallace,2025,2025-06-12,U.S. Open,Oakmont Country Club,T23,72,74,69,73,288,+8,,,,,,
+48887,Matt Wallace,2025,2025-06-26,Rocket Classic,Detroit Golf Club,T46,69,67,73,68,277,-11,0.431,-0.171,0.128,0.258,0.216,4
+48887,Matt Wallace,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,T50,71,68,68,72,279,-1,0.34,-0.352,-0.418,-0.24,1.351,4
+48887,Matt Wallace,2025,2025-07-17,The Open Championship,Royal Portrush Golf Club,T45,73,69,66,75,283,-1,,,,,,
+48887,Matt Wallace,2025,2025-07-24,3M Open,TPC Twin Cities,T3,65,67,68,64,264,-20,2.752,0.378,0.702,0.59,1.081,4
+48887,Matt Wallace,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T27,65,71,68,68,272,-8,1.296,-0.898,0.913,0.516,0.764,4
+48887,Matt Wallace,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,CUT,71,71,-,-,142,-2,-0.694,-1.858,1.323,0.416,-0.574,2
+48887,Matt Wallace,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T10,74,66,66,67,273,-11,1.795,-0.221,0.585,0.245,1.185,4
+48887,Matt Wallace,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,CUT,71,74,-,-,145,+3,-2.104,0.894,-1.671,-0.511,-0.815,2
+48887,Matt Wallace,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T31,68,70,68,66,272,-16,,,,,,
+48887,Matt Wallace,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,CUT,73,70,-,-,143,+1,,,,,,
+48887,Matt Wallace,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T51,67,66,71,67,271,-11,-0.497,-0.974,1.514,-0.211,-0.826,3
+51950,Max McGreevy,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,T27,70,67,68,65,270,-10,0.997,0.599,0.25,-0.418,0.566,4
+51950,Max McGreevy,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,67,73,-,-,140,-4,-0.637,0.218,-0.148,-0.804,0.097,2
+51950,Max McGreevy,2025,2025-07-03,John Deere Classic,TPC Deere Run,CUT,73,72,-,-,145,+3,-2.937,0.63,-1.472,-0.001,-2.094,2
+51950,Max McGreevy,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,CUT,70,71,-,-,141,+1,-0.622,0.058,-0.048,0.583,-1.216,2
+51950,Max McGreevy,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),T4,+9,+16,-4,+16,+37,,,,,,,
+51950,Max McGreevy,2025,2025-07-24,3M Open,TPC Twin Cities,CUT,70,70,-,-,140,-2,-0.99,0.25,-0.253,0.738,-1.727,2
+51950,Max McGreevy,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T34,66,66,70,72,274,-6,0.796,0.417,-0.587,-0.63,1.596,4
+51950,Max McGreevy,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),CUT,75,74,-,-,149,+5,-2.59,0.481,-1.474,0.904,-2.5,2
+51950,Max McGreevy,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,CUT,73,68,-,-,141,-3,-0.194,-0.071,-1.074,0.211,0.741,2
+51950,Max McGreevy,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T33,70,69,70,69,278,-6,0.545,-0.109,0.86,0.4,-0.356,4
+51950,Max McGreevy,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,T11,68,68,69,65,270,-14,2.045,1.324,0.305,-0.422,0.839,4
+51950,Max McGreevy,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T56,75,63,70,68,276,-12,,,,,,
+51950,Max McGreevy,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,T3,69,64,69,72,274,-10,,,,,,
+51950,Max McGreevy,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),2,64,67,66,63,260,-22,2.451,0.91,0.465,-0.124,1.2,3
+57364,Michael Thorbjornsen,2025,2025-04-17,Corales Puntacana Championship,Puntacana Resort & Club (Corales Golf Course),T2,69,63,70,73,275,-13,,,,,,
+57364,Michael Thorbjornsen,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,T4,64,70,61,68,263,-25,,,,,,
+57364,Michael Thorbjornsen,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,T33,64,73,66,69,272,-12,1.026,0.866,0.637,-0.406,-0.072,4
+57364,Michael Thorbjornsen,2025,2025-05-08,Truist Championship,The Philadelphia Cricket Club (Wissahickon Course),T54,69,69,72,70,280,E,-0.988,0.452,-0.399,-0.45,-0.591,4
+57364,Michael Thorbjornsen,2025,2025-05-15,PGA Championship,Quail Hollow Club,T41,68,70,74,74,286,+2,0.96,1.177,0.245,-0.508,0.047,4
+57364,Michael Thorbjornsen,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,W/D,-,-,-,-,,,,,,,,
+57364,Michael Thorbjornsen,2025,2025-06-26,Rocket Classic,Detroit Golf Club,T4,65,67,68,67,267,-21,2.931,0.639,0.272,0.628,1.393,4
+57364,Michael Thorbjornsen,2025,2025-07-03,John Deere Classic,TPC Deere Run,T21,70,65,73,63,271,-13,1.594,0.736,1.47,-0.44,-0.172,4
+57364,Michael Thorbjornsen,2025,2025-07-10,ISCO Championship,Hurstbourne Country Club,T14,69,70,70,68,277,-3,1.808,1.788,-0.935,0.362,0.593,4
+57364,Michael Thorbjornsen,2025,2025-07-24,3M Open,TPC Twin Cities,CUT,76,69,-,-,145,+3,-3.49,-1.94,-1.304,-0.329,0.082,2
+57364,Michael Thorbjornsen,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T38,69,64,74,68,275,-5,0.546,0.02,0.205,-0.409,0.73,4
+57364,Michael Thorbjornsen,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T13,69,71,69,69,278,-10,1.796,1.08,0.929,0.175,-0.389,4
+57364,Michael Thorbjornsen,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T29,67,72,70,68,277,-11,0.75,1.012,1.391,-0.692,-0.961,4
+57364,Michael Thorbjornsen,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,3,69,69,66,64,268,-16,3.045,-0.074,2.679,0.457,-0.018,4
+57364,Michael Thorbjornsen,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,T37,70,69,67,69,275,-9,0.795,0.728,-0.082,-0.443,0.592,4
+57364,Michael Thorbjornsen,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T31,66,69,72,65,272,-16,,,,,,
+57364,Michael Thorbjornsen,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T7,64,63,68,69,264,-18,1.118,1.385,-0.542,0.496,-0.221,3
+54576,Patrick Fishburn,2025,2025-04-03,Valero Texas Open,TPC San Antonio - The Oaks Course,T5,70,72,74,68,284,-4,1.981,0.276,1.2,-0.163,0.667,4
+54576,Patrick Fishburn,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,CUT,66,71,-,-,137,-7,,,,,,
+54576,Patrick Fishburn,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,CUT,70,68,-,-,138,-4,0.294,1.002,0.734,0.098,-1.539,2
+54576,Patrick Fishburn,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,CUT,73,74,-,-,147,+5,,,,,,
+54576,Patrick Fishburn,2025,2025-05-15,PGA Championship,Quail Hollow Club,CUT,77,69,-,-,146,+4,-0.412,0.759,0.984,-0.642,-1.513,2
+54576,Patrick Fishburn,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,CUT,74,70,-,-,144,+4,-1.922,0.674,-2.535,-0.515,0.454,2
+54576,Patrick Fishburn,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,T43,69,66,71,66,272,-8,0.497,0.867,0.171,-0.225,-0.315,4
+54576,Patrick Fishburn,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,68,71,-,-,139,-5,-0.137,0.566,0.292,0.088,-1.083,2
+54576,Patrick Fishburn,2025,2025-07-03,John Deere Classic,TPC Deere Run,T18,70,67,66,67,270,-14,1.844,-0.269,-0.138,0.548,1.703,4
+54576,Patrick Fishburn,2025,2025-07-10,ISCO Championship,Hurstbourne Country Club,T6,69,69,67,70,275,-5,2.308,0.474,0.667,0.253,0.915,4
+54576,Patrick Fishburn,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),T52,+8,+8,+11,-6,+21,,,,,,,
+54576,Patrick Fishburn,2025,2025-07-24,3M Open,TPC Twin Cities,T44,66,68,71,68,273,-11,0.502,0.295,-0.011,0.014,0.202,4
+54576,Patrick Fishburn,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T8,66,71,65,65,267,-13,2.546,-0.153,1.069,0.306,1.324,4
+54576,Patrick Fishburn,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T38,70,69,72,71,282,-6,0.795,-0.026,0.03,0.544,0.248,4
+54576,Patrick Fishburn,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T38,69,70,71,68,278,-10,0.5,0.776,1.183,-0.605,-0.853,4
+54576,Patrick Fishburn,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T62,70,70,75,72,287,+3,-1.705,0.195,0.521,-1.155,-1.267,4
+54576,Patrick Fishburn,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,CUT,70,72,-,-,142,E,-0.605,0.504,-0.35,-1.347,0.589,2
+54576,Patrick Fishburn,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,CUT,71,69,-,-,140,-4,,,,,,
+54576,Patrick Fishburn,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,T34,71,68,70,74,283,-1,,,,,,
+54576,Patrick Fishburn,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T34,71,62,70,65,268,-14,2.118,0.013,0.478,0.169,1.458,3
+52686,Rasmus Højgaard,2025,2025-02-06,WM Phoenix Open,TPC Scottsdale (Stadium Course),T12,68,67,65,71,271,-13,2.163,1.308,0.557,-0.381,0.679,4
+52686,Rasmus Højgaard,2025,2025-02-13,The Genesis Invitational,Torrey Pines Golf Course (South Course),CUT,82,77,-,-,159,+15,-6.465,-0.315,-2.702,0.305,-3.752,2
+52686,Rasmus Højgaard,2025,2025-02-20,Mexico Open at VidantaWorld,Vidanta Vallarta,T34,69,67,70,69,275,-9,0.768,-0.123,-0.68,-0.021,1.592,4
+52686,Rasmus Højgaard,2025,2025-03-13,THE PLAYERS Championship,TPC Sawgrass - THE PLAYERS Stadium Course,CUT,72,80,-,-,152,+8,-4.13,-1.976,-1.659,-0.275,-0.221,2
+52686,Rasmus Højgaard,2025,2025-03-20,Valspar Championship,Innisbrook Resort and Golf Club - Copperhead Course,CUT,76,78,-,-,154,+12,-4.691,-0.572,-1.548,-0.794,-1.276,2
+52686,Rasmus Højgaard,2025,2025-03-27,Texas Children's Houston Open,Memorial Park Golf Course,T32,66,67,70,69,272,-8,0.685,-0.096,0.342,0.006,0.434,4
+52686,Rasmus Højgaard,2025,2025-04-10,Masters Tournament,Augusta National Golf Club,T32,73,67,75,74,289,+1,,,,,,
+52686,Rasmus Højgaard,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,2,59,70,64,68,261,-27,,,,,,
+52686,Rasmus Højgaard,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,48,65,67,68,75,275,-9,0.276,0.288,-0.192,-0.04,0.22,4
+52686,Rasmus Højgaard,2025,2025-05-08,Truist Championship,The Philadelphia Cricket Club (Wissahickon Course),T23,66,70,71,67,274,-6,0.513,0.95,-0.659,0.603,-0.382,4
+52686,Rasmus Højgaard,2025,2025-05-15,PGA Championship,Quail Hollow Club,T67,68,74,75,74,291,+7,-0.29,0.541,-0.056,-0.347,-0.428,4
+52686,Rasmus Højgaard,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,T43,64,69,70,69,272,-8,0.497,0.982,0.777,0.242,-1.504,4
+52686,Rasmus Højgaard,2025,2025-06-12,U.S. Open,Oakmont Country Club,T46,71,73,74,75,293,+13,,,,,,
+52686,Rasmus Højgaard,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,69,70,-,-,139,-5,-0.138,0.508,1.909,-1.608,-0.947,2
+52686,Rasmus Højgaard,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,CUT,74,72,-,-,146,+6,-3.123,-0.151,-2.334,0.018,-0.655,2
+52686,Rasmus Højgaard,2025,2025-07-17,The Open Championship,Royal Portrush Golf Club,T16,69,68,70,70,277,-7,,,,,,
+52686,Rasmus Højgaard,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T34,67,70,70,67,274,-6,0.796,-0.565,0.99,-0.14,0.509,4
+52686,Rasmus Højgaard,2025,2025-09-26,Ryder Cup,Bethpage State Park (Black),1,-,-,-,-,,,,,,,,
+52686,Rasmus Højgaard,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T3,69,69,66,65,269,-19,2.75,0.734,-0.314,0.033,2.297,4
+52686,Rasmus Højgaard,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T14,72,68,68,66,274,-10,1.545,-1.062,0.255,0.291,2.06,4
+51287,Ryo Hisatsune,2025,2025-07-03,John Deere Classic,TPC Deere Run,T60,68,68,73,71,280,-4,-0.656,0.545,0.531,-0.025,-1.707,4
+51287,Ryo Hisatsune,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,CUT,70,77,-,-,147,+7,-3.623,-1.335,-1.47,-1.593,0.776,2
+51287,Ryo Hisatsune,2025,2025-07-17,Barracuda Championship,Tahoe Mountain Club (Old Greenwood),T47,+6,+6,+5,+6,+23,,,,,,,
+51287,Ryo Hisatsune,2025,2025-07-24,3M Open,TPC Twin Cities,CUT,72,69,-,-,141,-1,-1.49,0.693,-0.091,-1.307,-0.786,2
+51287,Ryo Hisatsune,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,CUT,71,76,-,-,147,+7,-4.562,0.778,-3.245,-0.628,-1.466,2
+51287,Ryo Hisatsune,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),T13,69,70,69,70,278,-10,1.796,0.531,0.667,0.424,0.173,4
+51287,Ryo Hisatsune,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T48,68,69,69,74,280,-8,0,-0.138,0.917,0.234,-1.012,4
+51287,Ryo Hisatsune,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T72,78,71,73,69,291,+7,-2.705,-0.702,-0.569,-0.939,-0.496,4
+51287,Ryo Hisatsune,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,CUT,74,70,-,-,144,+2,-1.605,1.212,-0.618,-0.044,-2.154,2
+51287,Ryo Hisatsune,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T40,70,69,69,65,273,-15,,,,,,
+51287,Ryo Hisatsune,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,T52,67,69,70,80,286,+2,,,,,,
+51287,Ryo Hisatsune,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),CUT,72,68,-,-,140,-2,-0.372,0.212,0.169,0.586,-1.339,1
+52666,Sami Valimaki,2025,2025-01-16,The American Express,Pete Dye Stadium Course,CUT,67,71,77,-,215,-1,0.808,0.877,-0.156,1.12,-1.034,1
+52666,Sami Valimaki,2025,2025-01-22,Farmers Insurance Open,Torrey Pines Golf Course (South Course),T15,68,75,73,71,287,-1,1.065,0.308,-0.531,-0.642,1.93,3
+52666,Sami Valimaki,2025,2025-02-06,WM Phoenix Open,TPC Scottsdale (Stadium Course),CUT,73,71,-,-,144,+2,-1.926,-0.889,-1.151,0.098,0.016,2
+52666,Sami Valimaki,2025,2025-02-20,Mexico Open at VidantaWorld,Vidanta Vallarta,T34,66,67,72,70,275,-9,0.768,-0.003,1.014,-0.958,0.716,4
+52666,Sami Valimaki,2025,2025-02-27,Cognizant Classic in The Palm Beaches,PGA National - Champion Course,T48,63,72,73,69,277,-7,0.129,-0.663,-0.033,0.306,0.519,4
+52666,Sami Valimaki,2025,2025-03-13,THE PLAYERS Championship,TPC Sawgrass - THE PLAYERS Stadium Course,T69,70,71,82,74,297,+9,-1.597,-1.357,0.952,-1.063,-0.128,4
+52666,Sami Valimaki,2025,2025-03-20,Valspar Championship,Innisbrook Resort and Golf Club - Copperhead Course,T36,67,75,70,71,283,-1,0.905,-0.141,1.06,-0.859,0.844,4
+52666,Sami Valimaki,2025,2025-03-27,Texas Children's Houston Open,Memorial Park Golf Course,4,70,67,64,62,263,-17,2.935,0.399,2.022,0.07,0.446,4
+52666,Sami Valimaki,2025,2025-04-03,Valero Texas Open,TPC San Antonio - The Oaks Course,T12,70,70,70,75,285,-3,1.731,-0.011,1.209,0.416,0.116,4
+52666,Sami Valimaki,2025,2025-04-17,RBC Heritage,Harbour Town Golf Links,T18,67,69,71,68,275,-9,0.618,-0.544,0.794,-0.423,0.792,4
+52666,Sami Valimaki,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,CUT,63,74,-,-,137,-7,,,,,,
+52666,Sami Valimaki,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,T39,66,71,67,69,273,-11,0.776,-0.408,-0.057,0.36,0.881,4
+52666,Sami Valimaki,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,T7,69,68,68,67,272,-12,,,,,,
+52666,Sami Valimaki,2025,2025-05-15,PGA Championship,Quail Hollow Club,CUT,74,77,-,-,151,+9,-2.913,-0.169,-2.255,-0.004,-0.485,2
+52666,Sami Valimaki,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,CUT,74,70,-,-,144,+4,-1.922,-1.926,-0.515,1.127,-0.607,2
+52666,Sami Valimaki,2025,2025-06-26,Rocket Classic,Detroit Golf Club,T19,68,68,68,67,271,-17,1.931,-0.347,0.553,0.164,1.561,4
+52666,Sami Valimaki,2025,2025-07-03,John Deere Classic,TPC Deere Run,CUT,70,70,-,-,140,-2,-0.437,-0.247,-0.15,-0.542,0.502,2
+52666,Sami Valimaki,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,T60,70,69,70,72,281,+1,-0.16,-0.546,0.207,-0.537,0.717,4
+52666,Sami Valimaki,2025,2025-07-24,3M Open,TPC Twin Cities,CUT,71,67,-,-,138,-4,0.01,-0.454,-0.084,0.309,0.238,2
+52666,Sami Valimaki,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T34,69,66,67,72,274,-6,0.796,0.08,1.44,-0.112,-0.612,4
+52666,Sami Valimaki,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),CUT,73,71,-,-,144,E,-0.09,-0.547,1.497,-0.893,-0.148,2
+52666,Sami Valimaki,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,CUT,70,73,-,-,143,-1,-1.194,-0.789,0.891,-0.912,-0.383,2
+52666,Sami Valimaki,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T72,72,76,76,67,291,+7,-2.705,-0.179,-1.966,-0.343,-0.218,4
+52666,Sami Valimaki,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T2,61,67,69,64,261,-27,,,,,,
+52666,Sami Valimaki,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,T18,71,69,67,73,280,-4,,,,,,
+52666,Sami Valimaki,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),1,66,62,65,66,259,-23,3.451,0.575,0.756,0.425,1.695,3
+49947,Taylor Moore,2025,2025-03-13,THE PLAYERS Championship,TPC Sawgrass - THE PLAYERS Stadium Course,T33,71,68,73,74,286,-2,1.153,0.505,0.978,0.071,-0.401,4
+49947,Taylor Moore,2025,2025-03-20,Valspar Championship,Innisbrook Resort and Golf Club - Copperhead Course,CUT,73,72,-,-,145,+3,-0.191,-0.338,-0.758,-0.269,1.173,2
+49947,Taylor Moore,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,CUT,66,70,-,-,136,-8,,,,,,
+49947,Taylor Moore,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,CUT,74,71,-,-,145,+3,-3.205,-0.161,-1.547,0.681,-2.179,2
+49947,Taylor Moore,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,T25,69,69,68,69,275,-9,,,,,,
+49947,Taylor Moore,2025,2025-05-15,PGA Championship,Quail Hollow Club,T19,73,69,70,70,282,-2,1.96,0.211,0.637,1.157,-0.046,4
+49947,Taylor Moore,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T73,69,71,74,71,285,+5,-0.923,-0.79,-0.412,0.138,0.142,4
+49947,Taylor Moore,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,69,74,-,-,143,+3,-2.358,0.675,-1.654,-0.066,-1.313,2
+49947,Taylor Moore,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,70,69,-,-,139,-5,-0.138,-0.264,0.211,0.191,-0.276,2
+49947,Taylor Moore,2025,2025-07-03,John Deere Classic,TPC Deere Run,T33,70,67,69,68,274,-10,0.844,0.494,-0.146,0.321,0.175,4
+49947,Taylor Moore,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,CUT,71,73,-,-,144,+4,-2.123,-0.584,-1.138,0.515,-0.915,2
+49947,Taylor Moore,2025,2025-07-24,3M Open,TPC Twin Cities,T14,66,67,66,69,268,-16,1.752,0.634,0.283,0.333,0.501,4
+49947,Taylor Moore,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,CUT,67,71,-,-,138,-2,-0.061,0.382,-0.985,0.88,-0.338,2
+49947,Taylor Moore,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),CUT,80,67,-,-,147,+3,-1.59,-1.133,-0.611,1.363,-1.21,2
+49947,Taylor Moore,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,CUT,73,68,-,-,141,-3,-0.194,-0.165,0.346,-1.409,1.035,2
+49947,Taylor Moore,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T56,75,68,74,68,285,+1,-1.205,-0.045,0.369,-0.257,-1.273,4
+49947,Taylor Moore,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,T63,71,65,75,73,284,E,-1.455,-0.71,-0.849,-0.326,0.43,4
+49947,Taylor Moore,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T21,67,65,68,70,270,-18,,,,,,
+49947,Taylor Moore,2025,2025-11-13,Butterfield Bermuda Championship,Port Royal Golf Course,CUT,72,73,-,-,145,+3,,,,,,
+49947,Taylor Moore,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),CUT,71,70,-,-,141,-1,-2.372,-2.131,-0.78,-0.039,0.578,1
+49947,Taylor Moore,2025,2025-12-11,PGA TOUR Q-School presented by Korn Ferry,Dye's Valley Course,T62,74,66,71,67,278,-2,,,,,,
+55182,Tom Kim,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,CUT,72,66,-,-,138,-4,0.294,0.743,-0.452,-0.663,0.666,2
+55182,Tom Kim,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,T54,72,68,71,71,282,-2,,,,,,
+55182,Tom Kim,2025,2025-05-15,PGA Championship,Quail Hollow Club,71,71,72,75,75,293,+9,-0.79,-0.748,-0.369,0.734,-0.407,4
+55182,Tom Kim,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,T44,70,68,71,70,279,-1,0.578,-0.285,-0.391,0.416,0.838,4
+55182,Tom Kim,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,70,69,-,-,139,-1,-0.358,-0.163,0.138,0.419,-0.751,2
+55182,Tom Kim,2025,2025-06-12,U.S. Open,Oakmont Country Club,T33,72,73,72,72,289,+9,,,,,,
+55182,Tom Kim,2025,2025-06-19,Travelers Championship,TPC River Highlands,T45,67,72,68,73,280,E,-1.012,-0.289,-0.614,0.512,-0.369,4
+55182,Tom Kim,2025,2025-06-26,Rocket Classic,Detroit Golf Club,CUT,67,76,-,-,143,-1,-2.138,-0.98,-1.355,-0.579,0.776,2
+55182,Tom Kim,2025,2025-07-03,John Deere Classic,TPC Deere Run,CUT,72,66,-,-,138,-4,0.563,-2.016,2.41,0.398,-0.229,2
+55182,Tom Kim,2025,2025-07-10,Genesis Scottish Open,The Renaissance Club,T17,66,70,67,71,274,-6,1.591,-0.186,1.796,0.222,-0.241,4
+55182,Tom Kim,2025,2025-07-17,The Open Championship,Royal Portrush Golf Club,CUT,69,76,-,-,145,+3,,,,,,
+55182,Tom Kim,2025,2025-07-24,3M Open,TPC Twin Cities,T28,68,68,69,66,271,-13,1.002,0.041,0.586,0.142,0.232,4
+55182,Tom Kim,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,W/D,73,-,-,-,73,+3,-4.526,-1.957,-1.114,-0.509,-0.946,1
+55182,Tom Kim,2025,2025-09-11,Procore Championship,Silverado Resort (North Course),72,72,71,77,73,293,+5,-1.954,-0.572,-1.962,0.622,-0.042,4
+55182,Tom Kim,2025,2025-10-02,Sanderson Farms Championship,The Country Club of Jackson,T11,68,66,69,70,273,-15,1.75,-0.242,0.703,0.441,0.848,4
+55182,Tom Kim,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T56,75,72,72,66,285,+1,-1.205,1.226,-0.623,-0.191,-1.618,4
+63121,William Mouw,2025,2025-03-20,Valspar Championship,Innisbrook Resort and Golf Club - Copperhead Course,CUT,77,71,-,-,148,+6,-1.691,0.272,-1.191,-1.601,0.829,2
+63121,William Mouw,2025,2025-03-27,Texas Children's Houston Open,Memorial Park Golf Course,T47,68,67,66,73,274,-6,0.185,-0.23,-0.103,-0.154,0.674,4
+63121,William Mouw,2025,2025-04-03,Valero Texas Open,TPC San Antonio - The Oaks Course,T33,70,71,72,76,289,+1,0.731,0.75,0.167,-0.162,-0.025,4
+63121,William Mouw,2025,2025-04-17,Corales Puntacana Championship,Puntacana Resort & Club (Corales Golf Course),T59,70,70,74,74,288,E,,,,,,
+63121,William Mouw,2025,2025-04-24,Zurich Classic of New Orleans,TPC Louisiana,T18,65,68,64,70,267,-21,,,,,,
+63121,William Mouw,2025,2025-05-01,THE CJ CUP Byron Nelson,TPC Craig Ranch,CUT,66,75,-,-,141,-1,-1.205,0.165,-2.167,-0.38,1.175,2
+63121,William Mouw,2025,2025-05-08,ONEflight Myrtle Beach Classic,Dunes Golf and Beach Club,T27,69,69,69,69,276,-8,,,,,,
+63121,William Mouw,2025,2025-05-22,Charles Schwab Challenge,Colonial Country Club,CUT,73,75,-,-,148,+8,-3.922,0.754,-2.279,0.422,-2.821,2
+63121,William Mouw,2025,2025-06-05,RBC Canadian Open,TPC Toronto at Osprey Valley - North Course,CUT,69,70,-,-,139,-1,-0.358,0.741,0.301,-0.556,-0.844,2
+63121,William Mouw,2025,2025-06-26,Rocket Classic,Detroit Golf Club,T34,67,69,68,71,275,-13,0.931,1.012,0.345,0.156,-0.581,4
+63121,William Mouw,2025,2025-07-03,John Deere Classic,TPC Deere Run,CUT,70,68,-,-,138,-4,0.563,0.029,1.167,0.408,-1.042,2
+63121,William Mouw,2025,2025-07-10,ISCO Championship,Hurstbourne Country Club,1,67,73,69,61,270,-10,3.558,0.517,1.039,0.358,1.645,4
+63121,William Mouw,2025,2025-07-24,3M Open,TPC Twin Cities,T7,66,66,66,67,265,-19,2.502,0.422,0.794,-0.481,1.766,4
+63121,William Mouw,2025,2025-07-31,Wyndham Championship,Sedgefield Country Club,T38,68,65,71,71,275,-5,0.546,0.197,-0.88,0.821,0.409,4
+63121,William Mouw,2025,2025-10-09,Baycurrent Classic,Yokohama Country Club,T18,68,69,75,63,275,-9,1.295,-0.204,1.956,-1.14,0.683,4
+63121,William Mouw,2025,2025-10-23,Bank of Utah Championship,Black Desert Resort,CUT,72,74,-,-,146,+4,-2.604,0.069,-1.293,0.036,-1.416,2
+63121,William Mouw,2025,2025-11-06,World Wide Technology Championship,El Cardonal at Diamante,T40,67,70,70,66,273,-15,,,,,,
+63121,William Mouw,2025,2025-11-20,The RSM Classic,Sea Island Golf Club (Seaside Course),T21,69,65,64,68,266,-16,0.836,-0.461,0.736,0.715,-0.154,3
