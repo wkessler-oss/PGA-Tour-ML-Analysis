@@ -1,9 +1,0 @@
----
-title: "PGA TOUR MODELING"
-output: html_notebook
-author: "Sports Team"
----
-```{r}
-
-```
-
