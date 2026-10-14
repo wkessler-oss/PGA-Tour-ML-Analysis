@@ -1,0 +1,184 @@
+---
+title: "Project Notebook"
+output: html_notebook
+author: "Sports Group"
+---
+
+
+```{r}
+library(readr)
+library(tidyverse)
+library(ggrepel)
+```
+
+# Data Sets
+```{r}
+
+# 1. Course Data
+course_url <- "https://raw.githubusercontent.com/wkessler-oss/PGA-Tour-ML-Analysis/main/Course%20Data.csv"
+course_data <- read_csv(course_url)
+
+# 2. Player Data
+master_url <- "https://raw.githubusercontent.com/wkessler-oss/PGA-Tour-ML-Analysis/main/PGA_2025_Master.csv"
+pga_master <- read_csv(master_url)
+
+pga_master <- pga_master %>%
+  mutate(
+    # Clean to_par
+    to_par = case_when(
+      to_par == "E" ~ "0",
+      TRUE ~ to_par
+    ),
+    to_par = as.numeric(to_par),
+    
+    # Convert all round scores and total to numeric
+    r1    = as.numeric(r1),
+    r2    = as.numeric(r2),
+    r3    = as.numeric(r3),
+    r4    = as.numeric(r4),
+    total = as.numeric(total)
+  )
+
+# Make sure it came in correctly
+head(course_data)
+head(pga_master)
+```
+
+## Data Set Descriptions
+
+### Player Data
+
+The dataset comes from official PGA Tour performace tacking sustems, which come from ShotLink. This is a swing data collection from high speed cameras, and other ,easurements on every hole. This Data is from the 2024-2025 PGA tour season, and includes Driving Distance, Green in Regulation, Strokes gained, and results. 
+
+### Assumptions
+
+We assume that the season averages of a players swing will be consistent week to week, not intaking the varience within it
+This can be a risk becuase they could be injured or just fatigued from the season. Meaning that our dataset would not accuretly predict the cut.
+
+Another assumption is that the players metrics are inherit to the player, and not to the course.
+This is a risk becasue ofgten time players will be more comfortable on a course if they have played it more, or they will play more aggressive if they know the course.
+
+### Course Data
+
+The course data is from a PGA tour website, which analyses the courses architecture. It includes yardages, par, grass types, and other things like distance and hazards. 
+
+### Assumptions
+We assume that the courses do not chainge, such as the tee boxes do not move, and they do not change any hazards or conditions. 
+This assumption is risky because conditions on tournament days can be super variable. THings such as wind and humidity can affect the way a ball flies immensely.
+
+Another assuumption is that course paramteters affect all players the same
+This is a risk because condition changes on a course may affect short vs long hitters very differently.
+
+
+```{r}
+colnames(pga_master)
+colnames(course_data)
+```
+
+
+## Looking For Outliers
+```{r}
+pga_master %>%
+  select(r1, r2, r3, r4, total, to_par, sg_total, sg_ott, sg_app, sg_arg, sg_putt, sg_rounds) %>%
+  pivot_longer(
+    cols = everything(),
+    names_to = "variable",
+    values_to = "value"
+  ) %>%
+  filter(!is.na(value)) %>%
+  ggplot(aes(x = value, fill = variable)) +
+  geom_histogram(bins = 30, color = "white", alpha = 0.8) +
+  facet_wrap(~ variable, scales = "free", ncol = 4) +
+  labs(
+    title = "Individual Variable Distributions (Histograms)",
+    subtitle = "Examine distribution shape, center, and tail extremes",
+    x = "Value",
+    y = "Count"
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "none",
+    strip.text = element_text(face = "bold")
+  )
+```
+### There does not seem to be many outliers. The difference in rounds and total line up becasuse the total will be less if there is less rounds.
+
+
+
+# Plotting
+```{r}
+ggplot(data = pga_master, aes(x = sg_ott, y = sg_app)) +
+  geom_point(alpha = 0.4) +
+  labs(
+    title = "Strokes Gained: Off-the-Tee vs. Approach",
+    x = "Strokes Gained: Off-the-Tee (Driving)",
+    y = "Strokes Gained: Approach (Iron Play)"
+  ) +
+  theme_bw()
+```
+
+```{r}
+pga_master %>%
+  inner_join(course_data, by = c("course_name" = "course")) %>%
+  ggplot(aes(x = adj_driving_distance, y = sg_ott)) +
+  geom_point(alpha = 0.3, color = "red") +
+  labs(
+    title = "Course Adjusted Driving Distance vs. Player SG: Off-the-Tee",
+    x = "Course Adjusted Driving Distance (Yards)",
+    y = "Strokes Gained: Off-the-Tee (Driving Performance)"
+  ) +
+  theme_bw()
+```
+```{r}
+pga_master %>%
+  inner_join(course_data, by = c("course_name" = "course")) %>%
+  group_by(player) %>%
+  summarise(
+    avg_course_dist = mean(adj_driving_distance, na.rm = TRUE),
+    avg_sg_ott      = mean(sg_ott, na.rm = TRUE),
+    avg_sg_total    = mean(sg_total, na.rm = TRUE),
+    events          = n(),
+    .groups         = "drop"
+  ) %>%
+  filter(events >= 5) %>%
+  ggplot(aes(x = avg_course_dist, y = avg_sg_ott)) +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray") +
+  geom_point(aes(color = avg_sg_total, size = events), alpha = 0.8) +
+  geom_smooth(method = "lm", color = "red", se = FALSE) +
+  scale_color_viridis_c(name = "Avg SG: Total") +
+  labs(
+    title = "Player Driving Performance vs. Course Driving Distance",
+    subtitle = "Min. 5 events played in 2025 season",
+    x = "Average Course Driving Distance (Yards)",
+    y = "Average Strokes Gained: Off-the-Tee",
+    size = "Events Played"
+  ) +
+  theme_bw()
+```
+```{r}
+
+pga_master %>%
+  inner_join(course_data, by = c("course_name" = "course")) %>%
+  group_by(player) %>%
+  summarise(
+    avg_course_dist = mean(adj_driving_distance, na.rm = TRUE),
+    avg_sg_ott      = mean(sg_ott, na.rm = TRUE),
+    avg_to_par      = mean(to_par, na.rm = TRUE),
+    events          = n(),
+    .groups         = "drop"
+  ) %>%
+  filter(events >= 5) %>%
+  ggplot(aes(x = avg_course_dist, y = avg_to_par)) +
+  geom_point(aes(color = avg_sg_ott, size = events), alpha = 0.85) +
+  geom_text_repel(aes(label = player), max.overlaps = 12, size = 3) +
+  scale_y_reverse() + # Reverse axis: lower score to par is better
+  scale_color_gradient(low = "orange", high = "darkgreen", name = "Avg SG: OTT") +
+  labs(
+    title = "Player Scoring to Par vs. Course Driving Distance",
+    subtitle = "Lower score to par is better (y-axis inverted)",
+    x = "Average Course Driving Distance (Yards)",
+    y = "Average Score to Par"
+  ) +
+  theme_bw()
+```
+
