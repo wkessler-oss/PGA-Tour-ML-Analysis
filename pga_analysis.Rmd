@@ -43,6 +43,14 @@ pga_master <- pga_master %>%
 head(course_data)
 head(pga_master)
 ```
+### Dimensions
+```{r}
+dim(course_data)
+dim(pga_master)
+```
+The player dataset contains 1,755 rows and 19 columns. Each row represents one player’s participation in a particular tournament during the 2025 season. The columns describe the player, tournament, course, finishing position, individual round scores, total score, score relative to par, and strokes-gained performance. Players appear in multiple rows because they compete in multiple tournaments.
+
+The course dataset contains 111 rows and 32 columns. Each row represents a golf course or a specific course setup, since some courses have separate entries for different events or par configurations. The columns describe course characteristics and playing statistics, including par, yardage, adjusted scoring, adjusted driving distance, driving accuracy, fairway width, and greens in regulation.
 
 ## Data Set Descriptions
 
@@ -116,6 +124,8 @@ ggplot(data = pga_master, aes(x = sg_ott, y = sg_app)) +
   ) +
   theme_bw()
 ```
+###There seems to be a weak positive relationship between strokes gained off-the-tee and approach performance. Most players are concentrated around zero in both metrics, with a few outliers. 366 observations were excluded due to missing or not finite values, which could affect the analysis of the graph. 
+
 
 ```{r}
 pga_master %>%
@@ -129,6 +139,8 @@ pga_master %>%
   ) +
   theme_bw()
 ```
+###There doesn't seem to be a clear relationship between course-adjusted driving distance and players' strokes gained off-the-tee. Performance varies considerably with similar driving distances, so other factors might influence driving performance. 
+
 ```{r}
 pga_master %>%
   inner_join(course_data, by = c("course_name" = "course")) %>%
@@ -155,6 +167,8 @@ pga_master %>%
   ) +
   theme_bw()
 ```
+###There seams to be a weak positive relationship between player driving performance and course driving distance. Players with high scores usually perform a better driving distance. There doesn't seem to be a clear relationship because of the number of events played. 
+
 ```{r}
 
 pga_master %>%
@@ -181,4 +195,62 @@ pga_master %>%
   ) +
   theme_bw()
 ```
+###There doesn't seem to be a clear relationship between average course driving and players scores relative to par. 
 
+
+```{r}
+player_summary <- pga_master %>%
+  inner_join(course_data, by = c("course_name" = "course")) %>%
+  group_by(player) %>%
+  summarise(
+    avg_course_dist = mean(adj_driving_distance, na.rm = TRUE),
+    avg_sg_ott      = mean(sg_ott, na.rm = TRUE),
+    avg_sg_total    = mean(sg_total, na.rm = TRUE),
+    events          = n(),
+    .groups         = "drop"
+  ) %>%
+  filter(events >= 5) 
+  ggplot(data = player_summary, mapping = aes(x = avg_course_dist, y = avg_sg_ott)) +
+  geom_point() +
+  geom_density2d() 
+
+  ggplot(data = player_summary, mapping = aes(x = avg_course_dist, y = avg_sg_ott)) +
+  geom_point()+
+  geom_density_2d()
+
+  ggplot(data = player_summary, mapping = aes(x = avg_course_dist, y = avg_sg_ott)) +
+  geom_point() +
+  geom_smooth() +
+  labs(
+    title = "Average Course Driving Distance vs Players Strokes Gained Of-the-Tee",
+    x = "Average Course Driving Distance (Yards)",
+    y = "Average Strokes Gained: Off-the-Tee",
+    size = "Events Played"
+  ) +
+  theme_bw()
+
+```
+###The three graphs show a weak positive relationship between average course driving and strokes gained off-the-tee. Most players concentrated around 290-292 yards, with strokes gained near zero. The density plots highlight this concentration. The smoothing curve suggest a little increase in performance at longer distances. The high variability and uncerntainty might show that driving distance alone is not a strong predictor of of-the-tee performance. 
+
+
+```{r}
+pga_master <- pga_master %>%
+  mutate(
+    cut_status = case_when(
+      finish_pos == "CUT" ~ "Missed Cut", 
+      is.na(finish_pos) ~ NA_character_, 
+      TRUE ~ "Made Cut"
+    )
+  ) 
+  
+  ggplot(pga_master, aes(x=as.factor(cut_status), y = sg_ott))+
+  geom_boxplot() +
+  labs( 
+    title = "Off-the-Tea performance by Cut Status", 
+    x = "Cut Status", 
+    y = "Strokes gained: Off-the-Tea"
+    )+
+    theme_bw()
+  
+```
+###There seems to be a higher median for players who made the cut. Players who missed the cut show grater variability. This might suggest that better of-the-tee performance is associated with a higher likelihood of making the cut. 366 observations were excluded because of missing or non infinite values. 
