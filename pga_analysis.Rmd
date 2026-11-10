@@ -9,6 +9,8 @@ author: "Sports Group"
 library(readr)
 library(tidyverse)
 library(ggrepel)
+library(tidymodels)
+library(rpart.plot)
 ```
 
 # Data Sets
@@ -124,7 +126,7 @@ ggplot(data = pga_master, aes(x = sg_ott, y = sg_app)) +
   ) +
   theme_bw()
 ```
-###There seems to be a weak positive relationship between strokes gained off-the-tee and approach performance. Most players are concentrated around zero in both metrics, with a few outliers. 366 observations were excluded due to missing or not finite values, which could affect the analysis of the graph. 
+### There seems to be a weak positive relationship between strokes gained off-the-tee and approach performance. Most players are concentrated around zero in both metrics, with a few outliers. 366 observations were excluded due to missing or not finite values, which could affect the analysis of the graph. 
 
 
 ```{r}
@@ -139,7 +141,7 @@ pga_master %>%
   ) +
   theme_bw()
 ```
-###There doesn't seem to be a clear relationship between course-adjusted driving distance and players' strokes gained off-the-tee. Performance varies considerably with similar driving distances, so other factors might influence driving performance. 
+### There doesn't seem to be a clear relationship between course-adjusted driving distance and players' strokes gained off-the-tee. Performance varies considerably with similar driving distances, so other factors might influence driving performance. 
 
 ```{r}
 pga_master %>%
@@ -167,7 +169,7 @@ pga_master %>%
   ) +
   theme_bw()
 ```
-###There seams to be a weak positive relationship between player driving performance and course driving distance. Players with high scores usually perform a better driving distance. There doesn't seem to be a clear relationship because of the number of events played. 
+### There seams to be a weak positive relationship between player driving performance and course driving distance. Players with high scores usually perform a better driving distance. There doesn't seem to be a clear relationship because of the number of events played. 
 
 ```{r}
 
@@ -195,7 +197,7 @@ pga_master %>%
   ) +
   theme_bw()
 ```
-###There doesn't seem to be a clear relationship between average course driving and players scores relative to par. 
+### There doesn't seem to be a clear relationship between average course driving and players scores relative to par. 
 
 
 ```{r}
@@ -230,7 +232,7 @@ player_summary <- pga_master %>%
   theme_bw()
 
 ```
-###The three graphs show a weak positive relationship between average course driving and strokes gained off-the-tee. Most players concentrated around 290-292 yards, with strokes gained near zero. The density plots highlight this concentration. The smoothing curve suggest a little increase in performance at longer distances. The high variability and uncerntainty might show that driving distance alone is not a strong predictor of of-the-tee performance. 
+### The three graphs show a weak positive relationship between average course driving and strokes gained off-the-tee. Most players concentrated around 290-292 yards, with strokes gained near zero. The density plots highlight this concentration. The smoothing curve suggest a little increase in performance at longer distances. The high variability and uncerntainty might show that driving distance alone is not a strong predictor of of-the-tee performance. 
 
 
 ```{r}
@@ -253,4 +255,301 @@ pga_master <- pga_master %>%
     theme_bw()
   
 ```
-###There seems to be a higher median for players who made the cut. Players who missed the cut show grater variability. This might suggest that better of-the-tee performance is associated with a higher likelihood of making the cut. 366 observations were excluded because of missing or non infinite values. 
+### There seems to be a higher median for players who made the cut. Players who missed the cut show grater variability. This might suggest that better of-the-tee performance is associated with a higher likelihood of making the cut. 366 observations were excluded because of missing or non infinite values. 
+
+
+
+
+
+# PART 3
+
+
+# Decision Tree
+## Tree Preperation
+```{r}
+
+tree_data <- pga_master %>%
+  inner_join(course_data, by = c("course_name" = "course")) %>%
+  select(
+    cut_status,
+    sg_ott,
+    sg_app,
+    sg_arg,
+    sg_putt,
+    adj_driving_distance) %>%
+  drop_na() %>%
+  mutate(cut_status = as.factor(cut_status))
+```
+
+## Training Data and Fitting Model
+```{r}
+set.seed(888)
+
+data_split <- initial_split(tree_data, prop = 0.80, strata = cut_status)
+
+train_data <- training(data_split)
+test_data  <- testing(data_split)
+
+train_data_pretty <- train_data %>%
+  rename(
+    `SG: Off the Tee`         = sg_ott,
+    `SG: Approach`            = sg_app,
+    `SG: Around the Green`    = sg_arg,
+    `SG: Putting`             = sg_putt,
+    `Course Driving Distance` = adj_driving_distance)
+
+tree_fit <- tree_spec %>%
+  fit(cut_status ~ ., data = train_data_pretty)
+```
+
+## Tree Visualization
+```{r, fig.width=14, fig.height=10}
+tree_fit %>%
+  extract_fit_engine() %>%
+  rpart.plot(
+    type = 4,
+    extra = 104,
+    under = TRUE,
+    faclen = 0,
+    main = "Decision Tree: PGA Tour Cut Status")
+```
+## Evaluating Fit
+```{r}
+test_data_pretty <- test_data %>%
+  rename(
+    `SG: Off the Tee`         = sg_ott,
+    `SG: Approach`            = sg_app,
+    `SG: Around the Green`    = sg_arg,
+    `SG: Putting`             = sg_putt,
+    `Course Driving Distance` = adj_driving_distance)
+
+results <- test_data_pretty %>%
+  bind_cols(predict(tree_fit, test_data_pretty)) %>%
+  bind_cols(predict(tree_fit, test_data_pretty, type = "prob"))
+
+results %>%
+  conf_mat(truth = cut_status, estimate = .pred_class)
+
+results %>%
+  metrics(truth = cut_status, estimate = .pred_class)
+```
+
+## Hyperparameter Tuning
+```{r}
+tune_spec <- decision_tree(
+  cost_complexity = tune(),
+  tree_depth = tune(),
+  min_n = tune()) %>%
+  set_engine("rpart") %>%
+  set_mode("classification")
+
+set.seed(123)
+folds <- vfold_cv(train_data, v = 5, strata = cut_status)
+
+tune_res <- tune_grid(
+  tune_spec,
+  cut_status ~ .,
+  resamples = folds,
+  grid = 10)
+
+best_tree <- tune_res %>%
+  select_best(metric = "accuracy")
+
+final_fit <- tune_spec %>%
+  finalize_model(best_tree) %>%
+  fit(cut_status ~ ., data = train_data)
+```
+
+## Plotting the Tuned Tree
+```{r}
+
+fit_engine <- extract_fit_engine(final_fit)
+
+var_map <- c(
+  "sg_ott"               = "SG: Off the Tee",
+  "sg_app"               = "SG: Approach",
+  "sg_arg"               = "SG: Around the Green",
+  "sg_putt"              = "SG: Putting",
+  "adj_driving_distance" = "Course Driving Distance")
+
+fit_engine$frame$var <- ifelse(
+  fit_engine$frame$var %in% names(var_map),
+  var_map[fit_engine$frame$var],
+  fit_engine$frame$var)
+
+rpart.plot(
+  fit_engine,
+  type = 4,
+  extra = 104,
+  under = TRUE,
+  faclen = 0,
+  main = "Tuned Decision Tree: PGA Tour Cut Status")
+```
+
+## Analysis Approach
+To predict whether a PGA Tour player will make or miss the cut based on player performance metrics and course characteristics, we implement a supervised learning. The analysis is set up using the tidymodels to ensure a good modeling workflow. First, we set a seed to ensure complete reproducibility. The dataset is split into an 80% training set and a 20% testing set using sampling on the target variable (cut_status). To guard against overfitting and reliably evaluate model generalization, we employ 5-fold cross-validation on the training set. For model optimization, hyperparameter tuning focuses on decision tree complexity using grid search (tune_grid()), evaluating variations in cost_complexity, tree_depth, and min_n across 10 candidate parameter combinations to maximize classification accuracy and area under the ROC curve (ROC AUC).
+
+### Setting up the Data
+
+```{r}
+model_data <- pga_master %>%
+  inner_join(course_data, by = c("course_name" = "course")) %>%
+  select(
+    cut_status,
+    sg_ott,
+    sg_app,
+    sg_arg,
+    sg_putt,
+    adj_driving_distance
+  ) %>%
+  drop_na() %>%
+  mutate(cut_status = factor(cut_status, levels = c("Made Cut", "Missed Cut")))
+
+set.seed(888)
+data_split <- initial_split(model_data, prop = 0.80, strata = cut_status)
+train_data <- training(data_split)
+test_data  <- testing(data_split)
+```
+
+## Baseline Fit
+```{r}
+baseline_recipe <- recipe(cut_status ~ sg_ott + sg_app, data = train_data)
+
+baseline_spec <- logistic_reg() %>%
+  set_engine("glm") %>%
+  set_mode("classification")
+
+baseline_wf <- workflow() %>%
+  add_recipe(baseline_recipe) %>%
+  add_model(baseline_spec)
+
+baseline_fit <- baseline_wf %>% fit(data = train_data)
+
+baseline_results <- test_data %>%
+  bind_cols(predict(baseline_fit, test_data)) %>%
+  bind_cols(predict(baseline_fit, test_data, type = "prob"))
+
+baseline_results %>%
+  metrics(truth = cut_status, estimate = .pred_class)
+
+conf_mat(baseline_results, truth = cut_status, estimate = .pred_class)
+```
+### Baseline Model Analysis
+For our baseline model, we fitted a binary logistic regression predicting cut status using core golf metrics: Strokes Gained Off-the-Tee Strokes Gained on approach 
+
+On the test dataset (259 observations), the baseline model achieved an accuracy of ~79.5%. While the model correctly identified 184 players who made the cut, it struggled significantly with identifying players who missed the cut—misclassifying 42 missed-cut players as having made the cut (False Positives) and only correctly identifying 22 missed cuts. This baseline demonstrates that while long-game hitting stats offers initial predictive power, linear golf metrics alone are insufficient for classifying cut-line decisions.
+
+
+## Advanced Model Fit
+```{r}
+
+tree_recipe <- recipe(
+  cut_status ~ sg_ott + sg_app + sg_arg + sg_putt + adj_driving_distance, 
+  data = train_data
+)
+
+tune_spec <- decision_tree(
+  cost_complexity = tune(),
+  tree_depth = tune(),
+  min_n = tune()
+) %>%
+  set_engine("rpart") %>%
+  set_mode("classification")
+
+tune_wf <- workflow() %>%
+  add_recipe(tree_recipe) %>%
+  add_model(tune_spec)
+
+set.seed(888)
+folds <- vfold_cv(train_data, v = 5, strata = cut_status)
+
+tune_res <- tune_grid(
+  tune_wf,
+  resamples = folds,
+  grid = 10,
+  metrics = metric_set(accuracy, roc_auc)
+)
+
+best_tree <- tune_res %>% select_best(metric = "accuracy")
+final_wf <- tune_wf %>% finalize_workflow(best_tree)
+final_fit <- final_wf %>% fit(data = train_data)
+
+tree_results <- test_data %>%
+  bind_cols(predict(final_fit, test_data)) %>%
+  bind_cols(predict(final_fit, test_data, type = "prob"))
+
+tree_results %>%
+  metrics(truth = cut_status, estimate = .pred_class)
+
+conf_mat(tree_results, truth = cut_status, estimate = .pred_class)
+```
+### Advanced Fit Analysis
+To capture non-linear relationships and short-game dynamics, we expanded our feature set to include short-game performance (Strokes Gained Around-the-Green `sg_arg` and Strokes Gained on Putting `sg_putt`) alongside course characteristics (`adj_driving_distance`). We trained a Decision Tree (`decision_tree()`) engine using `rpart` and tuned hyperparameters across a v = 5, 5-fold cross-validation.
+
+Hyperparameter tuning selected a good parameter set that balanced tree depth and split thresholds to prevent overfitting. On the test set, the advanced model significantly improved detection of missed cuts, correctly identifying 42 missed-cut players while maintaining high overall accuracy (~83.8%). Integrating short-game performance and course-level factors allowed the decision tree to capture non-linear thresholds where strong putting or other on the field playing compensates for average driving distance.
+
+## Model Evaluation
+
+```{r}
+
+fit_engine <- extract_fit_engine(final_fit)
+
+var_map <- c(
+  "sg_ott"               = "SG: Off the Tee",
+  "sg_app"               = "SG: Approach",
+  "sg_arg"               = "SG: Around Green",
+  "sg_putt"              = "SG: Putting",
+  "adj_driving_distance" = "Course Driving Distance"
+)
+
+fit_engine$frame$var <- ifelse(
+  fit_engine$frame$var %in% names(var_map),
+  var_map[fit_engine$frame$var],
+  fit_engine$frame$var
+)
+
+rpart.plot(
+  fit_engine,
+  type = 4,
+  extra = 104,
+  under = TRUE,
+  faclen = 0,
+  roundint = FALSE,
+  main = "Tuned Decision Tree Structure for PGA Tour Cut Status"
+)
+```
+## ROC Curve Comparison
+```{r}
+bind_rows(
+  baseline_results %>% mutate(model = "Baseline (Logistic)"),
+  tree_results %>% mutate(model = "Advanced (Tuned Tree)")
+) %>%
+  group_by(model) %>%
+  roc_curve(truth = cut_status, `.pred_Made Cut`) %>%
+  autoplot() +
+  labs(
+    title = "ROC Curve Comparison: Baseline vs. Advanced Decision Tree",
+    subtitle = "Trade-offs between True Positive Rate and False Positive Rate",
+    x = "1 - Specificity (False Positive Rate)",
+    y = "Sensitivity (True Positive Rate)"
+  ) +
+  theme_bw()
+```
+### Model Evaluation Analysis
+ This plot compares how good the baseline fit is (blue) and hwo goo the Advanced tree is (red). It is players who made the cut across all variables.
+The ROC curve comparison demonstrates that the Advanced Tuned Decision Tree outperforms the Baseline Logistic Regression across most probability thresholds. By achieving a larger Area Under the Curve, the decision tree proves that integrating short-game metrics (sg_putt, sg_arg) and course characteristics alongside hyperparameter tuning gives better classification compared to relying only on linear golf metrics.
+
+## 4. Model Evaluation & ROC Curve Comparison
+
+The ROC curve comparison demonstrates that the Advanced Tuned Decision Tree outperforms the Baseline Logistic Regression across most probability thresholds. By achieving a higher Area Under the Curve (ROC AUC), the decision tree confirms that integrating short-game metrics (`sg_putt`, `sg_arg`) and course-adjusted distance alongside non-linear hyperparameter tuning yields superior predictive performance compared to simple linear ball-striking models.
+
+### Model Error Analysis & Limitations
+
+Despite these improvements, systematic classification errors remain on the cut boundary:
+
+False Positives (22 instances)
+
+False Negatives (20 instances)
+
+### Limitations
+PGA Tour cut lines are highly sensitive to dynamic, unmodeled variables such as weather changes, player fatigue, and pressure. Future iterations should incorporate player historical performance on specific course setups and multi-round scoring variance.
